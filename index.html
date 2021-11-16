@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Unsplash</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonst awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="displayImg">
+        <img src="#" alt="image">
+        <a href="#" download class="download"  target="_blank"><i class="fas fa-download"></i></a>
+    </div>
+
+   <div class="wrapper">
+    <header>
+        <div class="container">
+         <nav>
+             <h2><img src="logo.png" alt="logo"> Easy <span>Unsplash</span></h2>
+             <div class="search-box">
+                 <input type="text" placeholder="Search..." id="input">
+                 <i class="fas fa-search" id="search"></i>
+             </div>
+         </nav>
+        </div>
+     </header>
+     <div class="container">
+         <div class="grid">
+             <span class="loading">Images Loading...</span>
+             <span id="NoDataMessage">No Data Found...</span>
+             <span id="upBtn"><i class="fas fa-angle-up"></i></span>
+             <div class="column column1"></div>
+             <div class="column column2"></div>
+         </div>
+     </div>
+   </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
